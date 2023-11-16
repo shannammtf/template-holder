@@ -1,4 +1,4 @@
-package com.shannammtf.backstagepoc;
+package com.shannammtf.${{value.java_artifact_name}};
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

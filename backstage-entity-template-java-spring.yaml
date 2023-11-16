@@ -24,7 +24,7 @@ spec:
         java_package_name:
           title: Java Package Name
           type: string
-          description: Name for the java package. eg (io.backstage.blah)
+          description: Name for the java package. eg (payment)
         description:
           title: Description
           type: string

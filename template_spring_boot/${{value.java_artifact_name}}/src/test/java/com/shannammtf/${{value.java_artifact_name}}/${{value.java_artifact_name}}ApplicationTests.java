@@ -1,4 +1,4 @@
-package com.shannammtf.backstagepoc;
+package com.shannammtf.${{value.java_artifact_name}};
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
