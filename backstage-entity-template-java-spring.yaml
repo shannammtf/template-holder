@@ -54,9 +54,7 @@ spec:
       name: Fetch Skeleton + Template
       action: fetch:template
       input:
-        url: ./skeleton
-        copyWithoutRender:
-          - .github/workflows/*
+        url: ./template_spring_boot
         values:
           component_id: ${{ parameters.component_id }}
           description: ${{ parameters.description }}
