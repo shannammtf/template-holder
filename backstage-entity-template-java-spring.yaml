@@ -72,6 +72,15 @@ spec:
         description: This is ${{ parameters.component_id }}
         repoUrl: ${{ parameters.repoUrl }}
 
+    - id: pr_create_branch
+      name: pr
+      action: publish:github:pull-request
+      input:
+        repoUrl: ${{ parameters.repoUrl }}
+        branchName : dev
+        targetBranchName : master
+        title: to create new branch
+        description : to create new branch
   output:
     links:
       - title: Repository
