@@ -59,7 +59,7 @@ spec:
         values:
           component_id: ${{ parameters.component_id }}
           description: ${{ parameters.description }}
-          java_artifact_name: ${{ parameters.java_artifact_name }}
+          java_artifact_name: ${{ parameters.java_package_name }}
           owner: ${{ parameters.owner }}
           destination: ${{ parameters.repoUrl | parseRepoUrl }}
  
